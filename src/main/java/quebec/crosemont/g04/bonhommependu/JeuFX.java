@@ -19,10 +19,6 @@ import javafx.scene.layout.*;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-/**
- *
- * @author usager
- */
 public class JeuFX extends Application {
 
     // Buttons alphabet
