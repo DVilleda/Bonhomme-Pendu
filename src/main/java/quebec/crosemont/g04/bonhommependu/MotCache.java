@@ -81,7 +81,7 @@ public class MotCache {
             if (lettreListe.get(i).estVisible()) {
                 msg += String.valueOf(lettreListe.get(i).getLettre());
             } else if (!lettreListe.get(i).estVisible()) {
-                msg += " ";
+                msg += "_";
             }
         }
 

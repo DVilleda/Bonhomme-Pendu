@@ -19,7 +19,7 @@ import javafx.scene.layout.*;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class JeuFX extends Application {
+public class JeuFXTODELETE extends Application {
 
     // Buttons alphabet
     Button btnA = new Button("A");

@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fce8c88-dc32-4c33-97d5-e277cd4c252e" name="Default Changelist" comment="Version qui contient le debut des classes Leaderboard et Resultat. Ces classes sont encore incompletes.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/quebec/crosemont/g04/bonhommependu/Difficulte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/quebec/crosemont/g04/bonhommependu/Leaderboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/quebec/crosemont/g04/bonhommependu/Resultat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="2fce8c88-dc32-4c33-97d5-e277cd4c252e" name="Default Changelist" comment="Changer la structure des classes pour accomoder le DAO et leFXML.">
+      <change afterPath="$PROJECT_DIR$/.idea/ProjetFinalAppNative.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quebec/crosemont/g04/bonhommependu/JeuFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quebec/crosemont/g04/bonhommependu/JeuFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quebec/crosemont/g04/bonhommependu/Lettre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quebec/crosemont/g04/bonhommependu/Lettre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quebec/crosemont/g04/bonhommependu/Difficulte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quebec/crosemont/g04/bonhommependu/JeuFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quebec/crosemont/g04/bonhommependu/JeuFXTODELETE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quebec/crosemont/g04/bonhommependu/Leaderboard.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/quebec/crosemont/g04/bonhommependu/MotCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quebec/crosemont/g04/bonhommependu/MotCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quebec/crosemont/g04/bonhommependu/Resultat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quebec/crosemont/g04/bonhommependu/Partie.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,28 +38,23 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1TkgsiIBoKOQBdJmb03irLf6sPe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.JeuFX">
-    <configuration name="JeuFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quebec.crosemont.g04.bonhommependu.JeuFX" />
+  <component name="RunManager" selected="Application.JeuFXTODELETE">
+    <configuration name="JeuFXTODELETE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quebec.crosemont.g04.bonhommependu.JeuFXTODELETE" />
       <module name="ProjetFinal.main" />
       <extension name="coverage">
         <pattern>
@@ -94,9 +82,21 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MotCache" />
-        <item itemvalue="Application.JeuFX" />
+        <item itemvalue="Application.JeuFXTODELETE" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -126,6 +126,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version qui contient le debut des classes Leaderboard et Resultat. Ces classes sont encore incompletes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Version qui contient le debut des classes Leaderboard et Resultat. Ces classes sont encore incompletes." />
+    <MESSAGE value="Changer la structure des classes pour accomoder le DAO et leFXML." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changer la structure des classes pour accomoder le DAO et leFXML." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575259426895">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1575259426895" />
+    <state x="441" y="114" key="CommitChangelistDialog2" timestamp="1575260268353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="441" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1575260268353" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575260146236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1575260146236" />
   </component>
 </project>
