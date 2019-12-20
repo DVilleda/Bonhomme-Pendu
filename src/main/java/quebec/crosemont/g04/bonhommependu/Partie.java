@@ -49,14 +49,15 @@ public class Partie {
     //accesseurs
     
     /**
-     * 
+     * Cette methode permet de retourner la date de debut d'une partie
+	 * @return dateDebut
      */
     public LocalDateTime getDateDebut(){
     	return dateDebut;
     }
     
     /**
-     * 
+     * @return retourne le pseudonyme du joeur
      */
     public String getPseudo(){
     	return pseudonyme;
