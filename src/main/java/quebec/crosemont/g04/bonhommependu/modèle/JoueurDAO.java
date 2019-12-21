@@ -1,16 +1,17 @@
-package quebec.crosemont.g04.bonhommependu.modèle;
+package sample;
 
 import java.util.ArrayList;
 /**
- *  Classe d'acc�s aux donn�es des Joueurs
- * 
+ *  Classe d'accès aux données des Joueurs
+ *
  */
 public abstract class JoueurDAO extends DAO<Joueur>{
     /**
-    * R�cup�re l'ensembles des Joueurs
-    *
-    * @return la liste de tous les joueurs
-    */
+     * Récupère l'ensembles des Joueurs
+     *
+     * @return la liste de tous les joueurs
+     */
     public abstract ArrayList<Joueur> trouverTout() throws DAOException;
-    
+
 }
+
