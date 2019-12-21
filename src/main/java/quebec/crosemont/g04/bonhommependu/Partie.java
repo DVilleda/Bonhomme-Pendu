@@ -18,9 +18,6 @@ enum Difficulte{
 public class Partie {
     //attributs
     String pseudonyme="";
-    LocalDateTime dateDebut;
-    LocalDateTime dateFin;
-    int temps;
     Difficulte difficulte;
 
     /**
@@ -31,7 +28,6 @@ public class Partie {
     public Partie(String unNom,Difficulte uneDifficulte){
         pseudonyme = unNom;
         difficulte = uneDifficulte;
-        dateDebut = LocalDateTime.now();
     }
 
     /**
@@ -40,56 +36,14 @@ public class Partie {
      * @param uneDifficulte
      * @param uneDuree
      */
-    public Partie(String unNom, Difficulte uneDifficulte, int uneDuree){
-        pseudonyme = unNom;
-        difficulte = uneDifficulte;
-        temps = uneDuree;
-    }
 
     //accesseurs
-    
-    /**
-     * Cette methode permet de retourner la date de debut d'une partie
-	 * @return dateDebut
-     */
-    public LocalDateTime getDateDebut(){
-    	return dateDebut;
-    }
     
     /**
      * @return retourne le pseudonyme du joeur
      */
     public String getPseudo(){
     	return pseudonyme;
-    }
-    
-    
-    /**
-     * Permet de calculer le temps ecoule pour une partie. Convertie tous les objet LocalDateTime en LocalTime
-     * et ensuite calcule le resultat en transformant les heures et minutes en secondes.
-     * @return Le resultat varie selon si la partie est fini ou non
-     */
-    public int getTemps(){
-        if(dateFin==null){
-            LocalTime tempsActuel = LocalTime.now();
-            LocalTime tempsDebut = dateDebut.toLocalTime();
-
-            int heures = tempsActuel.getHour() - tempsDebut.getHour();
-            int minutes = tempsActuel.getMinute() - tempsDebut.getMinute();
-            int secondes = tempsActuel.getSecond() - tempsDebut.getSecond();
-
-            temps = secondes + (minutes * 60)+(heures * 3600);
-        }else{
-            LocalTime tempsFin = dateFin.toLocalTime();
-            LocalTime tempsDebut = dateDebut.toLocalTime();
-
-            int heures = tempsFin.getHour() - tempsDebut.getHour();
-            int minutes = tempsFin.getMinute() - tempsDebut.getMinute();
-            int secondes = tempsFin.getSecond() - tempsDebut.getSecond();
-
-            temps = secondes + (minutes * 60) + (heures * 3600);
-        }
-        return temps;
     }
 
     //Methodes
@@ -100,19 +54,6 @@ public class Partie {
     	pseudonyme = unNom;
     }
     
-    
-    /**
-     * 
-     */
-    public void finirPartie(){
-    	dateFin = LocalDateTime.now();
-    }
-    
-    /**
-     * 
-     */
-    
-    
     /**
      * Methode toString() pour la classe Partie. Cette methode va permettre de voir toutes
      * les donnees d'une partie qui serviront a construire une table de classement.
@@ -122,7 +63,6 @@ public class Partie {
        String ligne="";
        ligne+="Pseudonyme: "+pseudonyme;
        ligne+=" Difficulte: "+difficulte.toString();
-       ligne+=" Duree de la partie: "+temps;
        return ligne;
     }
 }

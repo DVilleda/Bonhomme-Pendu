@@ -18,10 +18,16 @@ public class Lettre {
         visible=false;
     }
     //accesseurs
+    /**
+     * @return la lettre en format char
+     */
     public char getLettre() {
         return lettre;
     }
 
+    /**
+     * @return si la lettre est visible ou non en boolean
+     */
     public boolean estVisible() {
         return visible;
     }
@@ -36,7 +42,7 @@ public class Lettre {
     }
 
     /**
-     * cache la lettre
+     * cache la lettre 
      */
     public void setCache(){
         visible=false;

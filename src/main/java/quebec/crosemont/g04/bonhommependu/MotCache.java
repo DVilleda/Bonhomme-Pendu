@@ -5,6 +5,11 @@ import java.util.*;
 public class MotCache {
 
     //attributs de la classe Mot
+    /**
+     * un mot en string
+     * un array de characteres pour faciliter la toString() du mot
+     * un ArrayList<Lettre> qui va contenir les objets de classe Lettre pour le jeu
+     */
     protected String mot = "";
     protected static char[] motCaracteres;
     public ArrayList<Lettre> lettreListe= new ArrayList<Lettre>();
