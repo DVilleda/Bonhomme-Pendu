@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BonhommePenduNetbeans.jnlp">
+  <information>
+    <title>BonhommePenduNetbeans</title>
+    <vendor>socce</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BonhommePenduNetbeans.jar" size="87387" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.28.0.jar" size="6043326" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="bonhommependu.Main"  name="BonhommePenduNetbeans" />
+  <update check="always"/>
+</jnlp>

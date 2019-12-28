@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.web.WebView?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bonhommependu.Controller">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button fx:id="fermer" onAction="#fermerlb" layoutX="572.0" layoutY="14.0" mnemonicParsing="false" text="Fermer" />
+            <Label layoutX="67.0" layoutY="18.0" prefHeight="17.0" prefWidth="356.0" text="Leaderboard" />
+            <WebView fx:id="webView" layoutX="67.0" layoutY="39.0" onMouseEntered="#obtenirLB" prefHeight="317.0" prefWidth="488.0" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
